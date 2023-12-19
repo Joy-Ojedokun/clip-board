@@ -1,0 +1,212 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.letter {
+    color: green;
+    justify-content: center;
+    display: flex;
+    height: 50px;
+}
+
+.history {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 40px;
+}
+
+
+.track {
+    color: grey;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+}
+
+
+.mac {
+    background-color: green;
+    width: 130px;
+    border-radius: 3rem;
+}
+
+.ios {
+    background-color: rgb(102, 102, 175);
+    border-radius: 3rem;
+    width: 130px;
+}
+
+.car {
+    margin-top: 20px;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 3px;
+    margin-bottom: 70px;
+}
+
+button {
+    color: white;
+    padding: 7px;
+}
+
+.your {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+}
+
+body {
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.clip {
+    color: grey;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.son {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.sin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -17rem;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    flex-direction: column;
+}
+
+.quick {
+    margin-top: 10px;
+    padding-top: 40px;
+}
+
+.got {
+    margin-top: 10px;
+}
+
+.web {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px
+}
+
+.across {
+    margin-top: 10px;
+    color: grey;
+}
+
+.sync {
+    margin-right: 11rem;
+    margin-top: 2rem;
+}
+
+.complete {
+    margin-right: 8rem;
+    margin-top: 2rem;
+}
+
+.access {
+    text-align: center;
+}
+
+.access img {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.snippets {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.boost {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    margin-top: 30px;
+}
+
+.logo {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    margin-top: 150px;
+}
+
+.create,
+.plain,
+.sneak {
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.board {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.for {
+    width: 30px;
+    margin-left: 90px;
+    margin-top: 40px;
+}
+
+
+footer {
+    background-color: rgb(208, 201, 201);
+    padding: 30px;
+}
+
+.np {
+    width: 30%;
+}
+
+.kl {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.copy {
+    display: flex;
+    gap: 1em;
+}
+
+@media only screen and (max-width: 900px) {
+    .boost {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .web {
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+}
